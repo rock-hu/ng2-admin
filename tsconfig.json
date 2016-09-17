@@ -1,8 +1,12 @@
 {
+  //http://json.schemastore.org/tsconfig
+  //JSON schema for the TypeScript compiler's configuration file
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
+    "removeComments": false,
+    "noImplicitAny": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
