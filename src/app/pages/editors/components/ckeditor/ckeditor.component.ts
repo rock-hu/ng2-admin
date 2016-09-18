@@ -1,5 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import {CKEditor} from 'ng2-ckeditor';
+import { CKEditorComponent } from 'ng2-ckeditor';
 
 import './ckeditor.loader.ts';
 
