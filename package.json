@@ -30,7 +30,7 @@
     "animate.css": "^3.5.1",
 
     "bootstrap": "^4.0.0-alpha.4",
-    "bootstrap-loader": "2.0.0-beta.11"
+    "bootstrap-loader": "2.0.0-beta.11",
 
     "express": "^4.13.3",
     "chart.js": "^1.1.1",
