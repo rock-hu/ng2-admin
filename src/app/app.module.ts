@@ -21,12 +21,12 @@ import {BasicForm} from './pages/forms/components/layouts/components/basicForm';
 import {WithoutLabelsForm} from './pages/forms/components/layouts/components/withoutLabelsForm';
 
 
-import {HoverTable} from '.app/components/hoverTable';
-import {BorderedTable} from '.app/components/borderedTable';
-import {CondensedTable} from '.app/components/condensedTable';
-import {StripedTable} from '.app/components/stripedTable';
-import {ContextualTable} from '.app/components/contextualTable';
-import {ResponsiveTable} from '.app/components/responsiveTable';
+import {HoverTable} from './pages/tables/components/basicTables/components/hoverTable';
+import {BorderedTable} from './pages/tables/components/basicTables/components/borderedTable';
+import {CondensedTable} from './pages/tables/components/basicTables/components/condensedTable';
+import {StripedTable} from './pages/tables/components/basicTables/components/stripedTable';
+import {ContextualTable} from './pages/tables/components/basicTables/components/contextualTable';
+import {ResponsiveTable} from './pages/tables/components/basicTables/components/responsiveTable';
 import {NG2_SMART_TABLE_DIRECTIVES} from 'ng2-smart-table';
 
 import {FlatButtons} from './pages/ui/components/buttons/components/flatButtons';
