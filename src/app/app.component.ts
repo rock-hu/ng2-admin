@@ -2,7 +2,7 @@ import './app.loader.ts';
 import { Component, ViewEncapsulation } from '@angular/core';
 import { GlobalState } from './global.state';
 import { BaThemeConfigProvider, BaThemeConfig } from './theme';
-import { BaThemeRun } from './theme/';
+import { BaThemeRun } from './theme/directives';
 import { BaImageLoaderService, BaThemePreloader, BaThemeSpinner } from './theme/services';
 import { layoutPaths } from './theme/theme.constants';
 
@@ -24,7 +24,7 @@ export class App {
   constructor(private _state: GlobalState,
               private _imageLoader: BaImageLoaderService,
               private _spinner: BaThemeSpinner) {
-    
+
     this._loadImages();
 
     this._state.subscribe('menu.isCollapsed', (isCollapsed) => {
