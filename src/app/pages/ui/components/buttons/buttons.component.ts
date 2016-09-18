@@ -12,16 +12,6 @@ import {GroupButtons} from './components/groupButtons';
 @Component({
   selector: 'buttons',
   encapsulation: ViewEncapsulation.None,
-  directives: [
-    FlatButtons,
-    RaisedButtons,
-    SizedButtons,
-    DisabledButtons,
-    IconButtons,
-    LargeButtons,
-    DropdownButtons,
-    GroupButtons
-  ],
   styles: [require('./buttons.scss')],
   template: require('./buttons.html'),
 })

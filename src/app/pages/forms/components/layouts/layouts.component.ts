@@ -10,7 +10,6 @@ import {WithoutLabelsForm} from './components/withoutLabelsForm';
 @Component({
   selector: 'layouts',
   encapsulation: ViewEncapsulation.None,
-  directives: [InlineForm, BlockForm, HorizontalForm, BasicForm, WithoutLabelsForm],
   styles: [],
   template: require('./layouts.html'),
 })

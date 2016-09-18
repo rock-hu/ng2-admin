@@ -11,7 +11,6 @@ import {ResponsiveTable} from './components/responsiveTable';
 @Component({
   selector: 'basic-tables',
   encapsulation: ViewEncapsulation.None,
-  directives: [HoverTable, BorderedTable, CondensedTable, StripedTable, ContextualTable, ResponsiveTable],
   styles: [require('./basicTables.scss')],
   template: require('./basicTables.html'),
   providers: [BasicTablesService]

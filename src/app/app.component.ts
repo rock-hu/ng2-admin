@@ -2,7 +2,7 @@ import './app.loader.ts';
 import { Component, ViewEncapsulation } from '@angular/core';
 import { GlobalState } from './global.state';
 import { BaThemeConfigProvider, BaThemeConfig } from './theme';
-import { BaThemeRun } from './theme/directives';
+import { BaThemeRun } from './theme/';
 import { BaImageLoaderService, BaThemePreloader, BaThemeSpinner } from './theme/services';
 import { layoutPaths } from './theme/theme.constants';
 
@@ -12,8 +12,6 @@ import { layoutPaths } from './theme/theme.constants';
  */
 @Component({
   selector: 'app',
-  pipes: [],
-  directives: [BaThemeRun],
   providers: [BaThemeConfigProvider, BaThemeConfig, BaImageLoaderService, BaThemeSpinner],
   encapsulation: ViewEncapsulation.None,
   styles: [require('normalize.css'), require('./app.scss')],

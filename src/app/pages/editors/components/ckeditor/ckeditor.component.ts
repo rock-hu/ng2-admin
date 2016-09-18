@@ -6,7 +6,6 @@ import './ckeditor.loader.ts';
 @Component({
   selector: 'ckeditor-component',
   encapsulation: ViewEncapsulation.None,
-  directives: [CKEditor],
   template: require('./ckeditor.html'),
   styles: [require('./ckeditor.scss')]
 })

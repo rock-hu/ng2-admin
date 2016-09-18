@@ -7,7 +7,6 @@ import {FeedService} from './feed.service';
   selector: 'feed',
   encapsulation: ViewEncapsulation.None,
   providers: [FeedService],
-  pipes: [BaProfilePicturePipe, BaAppPicturePipe],
   styles: [require('./feed.scss')],
   template: require('./feed.html')
 })

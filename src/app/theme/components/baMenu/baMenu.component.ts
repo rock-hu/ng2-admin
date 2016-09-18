@@ -12,8 +12,7 @@ import {GlobalState} from '../../../global.state';
   encapsulation: ViewEncapsulation.None,
   styles: [require('./baMenu.scss')],
   template: require('./baMenu.html'),
-  providers: [BaMenuService],
-  directives: [BaMenuItem, BaSlimScroll]
+  providers: [BaMenuService]
 })
 export class BaMenu {
 

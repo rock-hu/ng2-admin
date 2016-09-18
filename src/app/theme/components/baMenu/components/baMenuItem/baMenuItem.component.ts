@@ -5,8 +5,7 @@ import {Component, ViewEncapsulation, Input, Output, EventEmitter} from '@angula
   encapsulation: ViewEncapsulation.None,
   styles: [require('./baMenuItem.scss')],
   template: require('./baMenuItem.html'),
-  providers: [],
-  directives: [BaMenuItem]
+  providers: []
 })
 export class BaMenuItem {
 

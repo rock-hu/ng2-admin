@@ -10,8 +10,7 @@ import * as _ from 'lodash';
   encapsulation: ViewEncapsulation.None,
   styles: [require('./baSidebar.scss')],
   template: require('./baSidebar.html'),
-  providers: [],
-  directives: [BaMenu]
+  providers: []
 })
 export class BaSidebar {
 

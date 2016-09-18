@@ -11,7 +11,6 @@ import {Rating} from './components/ratinginputs';
 @Component({
   selector: 'inputs',
   encapsulation: ViewEncapsulation.None,
-  directives: [StandardInputs, ValidationInputs, GroupInputs, CheckboxInputs, Rating],
   template: require('./inputs.html'),
 })
 export class Inputs {

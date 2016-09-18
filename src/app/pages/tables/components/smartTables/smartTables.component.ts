@@ -7,7 +7,6 @@ import { SmartTablesService } from './smartTables.service';
 @Component({
   selector: 'basic-tables',
   encapsulation: ViewEncapsulation.None,
-  directives: [NG2_SMART_TABLE_DIRECTIVES],
   styles: [require('./smartTables.scss')],
   template: require('./smartTables.html'),
   providers: [SmartTablesService]

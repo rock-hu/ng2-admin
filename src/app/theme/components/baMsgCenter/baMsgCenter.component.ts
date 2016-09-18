@@ -7,8 +7,7 @@ import {BaProfilePicturePipe} from '../../pipes';
   selector: 'ba-msg-center',
   providers: [BaMsgCenterService],
   styles: [require('./baMsgCenter.scss')],
-  template: require('./baMsgCenter.html'),
-  pipes: [BaProfilePicturePipe]
+  template: require('./baMsgCenter.html')
 })
 export class BaMsgCenter {
 

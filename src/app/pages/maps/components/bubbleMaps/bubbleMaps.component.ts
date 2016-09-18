@@ -4,7 +4,6 @@ import {BubbleMapsService} from './bubbleMaps.service';
 
 @Component({
   selector: 'bubble-maps',
-  pipes: [],
   providers: [BubbleMapsService],
   encapsulation: ViewEncapsulation.None,
   styles: [require('./bubbleMaps.scss')],

@@ -9,8 +9,6 @@ import {BaScrollPosition} from '../../directives';
   selector: 'ba-page-top',
   styles: [require('./baPageTop.scss')],
   template: require('./baPageTop.html'),
-  directives: [BaMsgCenter, BaScrollPosition],
-  pipes: [BaProfilePicturePipe],
   encapsulation: ViewEncapsulation.None
 })
 export class BaPageTop {
