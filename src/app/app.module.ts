@@ -38,11 +38,10 @@ import {LargeButtons} from './pages/ui/components/buttons/components/largeButton
 import {DropdownButtons} from './pages/ui/components/buttons/components/dropdownButtons';
 import {GroupButtons} from './pages/ui/components/buttons/components/groupButtons';
 
-import {BaCardBlur} from './theme/components/baCard';
+import {BaCardBlur} from './theme/components/baCard/baCardBlur.directive';
 import {BaSlimScroll} from './theme/directives/baSlimScroll';
 import {BaScrollPosition} from './theme/directives/baScrollPosition';
 
-import {BaProfilePicturePipe} from './theme/pipes/baProfilePicture';
 
 
 import {BaCheckbox} from './theme/components/baCheckbox';
@@ -90,7 +89,7 @@ const APP_PROVIDERS = [
     HoverTable, BorderedTable, CondensedTable, StripedTable, ContextualTable, ResponsiveTable,
     NG2_SMART_TABLE_DIRECTIVES,
     FlatButtons, RaisedButtons, SizedButtons, DisabledButtons, IconButtons, LargeButtons, DropdownButtons, GroupButtons,
-    BaMsgCenter, BaScrollPosition,    
+    BaMsgCenter, BaScrollPosition,
     BaMenu
   ],
   imports: [ // import Angular's modules
