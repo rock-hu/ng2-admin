@@ -1,4 +1,3 @@
-import './app.loader.ts';
 import { Component, ViewEncapsulation } from '@angular/core';
 import { GlobalState } from './global.state';
 import { BaThemeConfigProvider, BaThemeConfig } from './theme';
@@ -9,6 +8,7 @@ import { layoutPaths } from './theme/theme.constants';
 /*
  * App Component
  * Top Level Component
+ * https://angular.io/docs/ts/latest/api/core/index/Component-decorator.html
  */
 @Component({
   selector: 'app',

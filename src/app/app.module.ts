@@ -1,4 +1,4 @@
-import { NgModule, ApplicationRef } from '@angular/core';
+import { NgModule, ApplicationRef, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
@@ -7,6 +7,7 @@ import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
 
 /*
  * Platform and Environment providers/directives/pipes
+ * https://angular.io/docs/ts/latest/api/core/index/NgModule-interface.html
  */
 import { ENV_PROVIDERS } from './environment';
 import { routing } from './app.routing';
@@ -45,6 +46,9 @@ const APP_PROVIDERS = [
   providers: [ // expose our Services and Providers into Angular's dependency injection
     ENV_PROVIDERS,
     APP_PROVIDERS
+  ],
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
   ]
 })
 
