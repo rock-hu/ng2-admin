@@ -7,7 +7,6 @@ import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
 
 import {TreeComponent, TreeModel} from 'ng2-tree';
 import {BaProfilePicturePipe, BaAppPicturePipe} from './theme/pipes';
-import {BaAppPicturePipe} from './theme/pipes';
 import { CKEditorComponent } from 'ng2-ckeditor';
 import {StandardInputs} from './pages/forms/components/inputs/components/standardInputs';
 import {ValidationInputs} from './pages/forms/components/inputs/components/validationInputs';
@@ -87,15 +86,11 @@ const APP_PROVIDERS = [
     BaCheckbox,
     BaMsgCenter,
     BaScrollPosition,
-    BaProfilePicturePipe,
     BaMenu,
     HoverTable, BorderedTable, CondensedTable, StripedTable, ContextualTable, ResponsiveTable,
     NG2_SMART_TABLE_DIRECTIVES,
     FlatButtons, RaisedButtons, SizedButtons, DisabledButtons, IconButtons, LargeButtons, DropdownButtons, GroupButtons,
-    BaCardBlur,
-    BaProfilePicturePipe,
-    BaMsgCenter, BaScrollPosition,
-    BaProfilePicturePipe,
+    BaMsgCenter, BaScrollPosition,    
     BaMenu
   ],
   imports: [ // import Angular's modules
