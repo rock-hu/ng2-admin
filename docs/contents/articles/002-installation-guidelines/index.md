@@ -56,6 +56,14 @@ npm start
 ```
 Go to http://0.0.0.0:3000 or http://localhost:3000 in your browser.
 
+Shutdown nodejs process
+```
+rock@rock-HP-ProBook-4341s:/develop/repo/angular/ng2-admin$ lsof -i :3000
+COMMAND  PID USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+node    2959 rock   15u  IPv4 119243      0t0  TCP localhost:3000 (LISTEN)
+rock@rock-HP-ProBook-4341s:/develop/repo/angular/ng2-admin$ kill -9 2959
+rock@rock-HP-ProBook-4341s:/develop/repo/angular/ng2-admin$ lsof -i :3000
+```
 
 To run the local copy in production mode and build the sources, execute:
 ```bash
