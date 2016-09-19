@@ -75,21 +75,7 @@ const APP_PROVIDERS = [
 @NgModule({
   bootstrap: [App],
   declarations: [
-    App,
-    BaCardBlur,
-    BaMenuItem,
-    BaSlimScroll,
-    BaProfilePicturePipe,
-    CKEditorComponent,
-    BaCheckbox,
-    BaMsgCenter,
-    BaScrollPosition,
-    BaMenu,
-    HoverTable, BorderedTable, CondensedTable, StripedTable, ContextualTable, ResponsiveTable,
-    NG2_SMART_TABLE_DIRECTIVES,
-    FlatButtons, RaisedButtons, SizedButtons, DisabledButtons, IconButtons, LargeButtons, DropdownButtons, GroupButtons,
-    BaMsgCenter, BaScrollPosition,
-    BaMenu
+    App
   ],
   imports: [ // import Angular's modules
     BrowserModule,
