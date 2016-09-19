@@ -73,9 +73,34 @@ const APP_PROVIDERS = [
  * `AppModule` is the main entry point into Angular2's bootstraping process
  */
 @NgModule({
-  bootstrap: [App],
+  bootstrap: [
+    App,
+    BaCardBlur,
+    BaMenuItem,
+    BaSlimScroll,
+    BaProfilePicturePipe,
+    CKEditorComponent,
+    BaCheckbox,
+    BaMenu,
+    HoverTable, BorderedTable, CondensedTable, StripedTable, ContextualTable, ResponsiveTable,
+    NG2_SMART_TABLE_DIRECTIVES,
+    FlatButtons, RaisedButtons, SizedButtons, DisabledButtons, IconButtons, LargeButtons, DropdownButtons, GroupButtons,
+    BaMsgCenter, BaScrollPosition
+  ],
+
   declarations: [
-    App
+    App,
+    BaCardBlur,
+    BaMenuItem,
+    BaSlimScroll,
+    BaProfilePicturePipe,
+    CKEditorComponent,
+    BaCheckbox,
+    BaMenu,
+    HoverTable, BorderedTable, CondensedTable, StripedTable, ContextualTable, ResponsiveTable,
+    NG2_SMART_TABLE_DIRECTIVES,
+    FlatButtons, RaisedButtons, SizedButtons, DisabledButtons, IconButtons, LargeButtons, DropdownButtons, GroupButtons,
+    BaMsgCenter, BaScrollPosition
   ],
   imports: [ // import Angular's modules
     BrowserModule,
