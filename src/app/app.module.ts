@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
 
-import {TreeComponent, TreeModel} from 'ng2-tree';
+//import {TreeComponent, TreeModel} from 'ng2-tree';
 import {BaProfilePicturePipe, BaAppPicturePipe} from './theme/pipes';
 import { CKEditorComponent } from 'ng2-ckeditor';
 import {StandardInputs} from './pages/forms/components/inputs/components/standardInputs';
@@ -76,7 +76,6 @@ const APP_PROVIDERS = [
   bootstrap: [App],
   declarations: [
     App,
-    TreeComponent,
     BaCardBlur,
     BaMenuItem,
     BaSlimScroll,
